@@ -50,3 +50,11 @@ table {
 /* -----------------
     CUSTOM STYLES
 ---------------------*/
+.header-footer{
+    background-color: lightgray;
+    height: 50px;
+    padding: 10px
+}
+#container{
+    padding: 100px;
+}
