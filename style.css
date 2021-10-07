@@ -63,6 +63,7 @@ table {
 
 #container{
     padding: 100px;
+    display: flex;
 }
 #footer{
     text-align: center;
