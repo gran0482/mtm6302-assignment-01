@@ -17,11 +17,11 @@ console.log(ListOfEmojis)
 
 
 //loop for creating the emojis
-// for (let i = 0; i < 101; i++) {
-//     console.log(i) // Logs 0 to 4
-//   }
+for (let i = 0; i < 101; i++) {
+    console.log(i) // Logs 0 to 4
+  }
   
-//   let total = 0
+  let total = 0
 
 
 
