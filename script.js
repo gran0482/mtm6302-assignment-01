@@ -2,8 +2,6 @@
 const $header = document.getElementById('header')
 const $container = document.getElementById('container')
 const $footer = document.getElementById('footer')
-const $ListOfEmojis = ['emoji1', 'emoji 1', 'emoji 1', 'emoji 1']
-
 
 //Code
 
@@ -23,11 +21,9 @@ for (let i = 0; i < 101; i++) {
   
   let total = 0
 
-$container.innerHTML = '<div> &#129409</div>'
-$container.innerHTML += '<div> &#8987</div>'
-$container.innerHTML += '<div> &#8987</div>'
-$container.innerHTML += '<div> &#8987</div>'
-$container.innerHTML += '<div> &#8987</div>'
+$container.innerHTML = '<div> &#129409 129409</div>'
+$container.innerHTML += '<div> &#8987 8987</div>'
+
 
 
 //header and footer text
