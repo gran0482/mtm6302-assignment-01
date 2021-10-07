@@ -3,13 +3,17 @@ const $header = document.getElementById('header')
 const $container = document.getElementById('container')
 const $footer = document.getElementById('footer')
 
-const ListOfEmojis = ['emoji 1', 'emoji 1', 'emoji 1', 'emoji 1']
-
 
 
 //Code
 
 //Run
+
+const ListOfEmojis = ['emoji 1', 'emoji 1', 'emoji 1', 'emoji 1']
+console.log(ListOfEmojis)
+
+
+
 
 
 //loop for creating the emojis
@@ -23,4 +27,4 @@ const ListOfEmojis = ['emoji 1', 'emoji 1', 'emoji 1', 'emoji 1']
 
 //header and footer text
 $header.innerHTML = 'Emoji Gallery'
-$footer.innerHTML += '© Ben Grant'
+$footer.innerHTML += '© 2021 Ben Grant'
