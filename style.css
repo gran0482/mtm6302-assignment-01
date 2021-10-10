@@ -73,21 +73,30 @@ table {
 }
 /* mobile styles */
 @media only screen and (max-width: 600px) {
-    body {
+    #container {
       background-color: lightblue;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(10, 1fr);
     }
   }
 
 /* tablet */
 @media only screen and (min-width: 600px) {
-  body {
+   #container {
     background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
   } 
 }  
 
 /* desktop */
 @media only screen and (min-width: 992px) {
-    body {
+    #container  {
       background-color: darkblue;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     } 
   } 
