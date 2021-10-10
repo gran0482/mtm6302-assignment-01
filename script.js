@@ -24,6 +24,7 @@ for (let i = 0; i < 101; i++) {
 $container.innerHTML = '<div> &#129409 129409</div>'
 $container.innerHTML += '<div> &#8987 8987</div>'
 
+// Possibly using a while loop?
 
 
 //header and footer text
