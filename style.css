@@ -50,6 +50,7 @@ table {
 /* -----------------
     CUSTOM STYLES
 ---------------------*/
+/* general styles */
 .header-footer{
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
@@ -70,3 +71,23 @@ table {
     font-size: 1.2rem;
     padding: 20px 0 0 0 ;
 }
+/* mobile styles */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+/* tablet */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: blue;
+  } 
+}  
+
+/* desktop */
+@media only screen and (min-width: 992px) {
+    body {
+      background-color: darkblue;
+    } 
+  } 
