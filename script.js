@@ -3,6 +3,7 @@ const $header = document.getElementById('header')
 const $container = document.getElementById('container')
 const $footer = document.getElementById('footer')
 
+
 //Code
 
 //Run
@@ -21,6 +22,8 @@ const $footer = document.getElementById('footer')
   
 //   let total = 0
 
+
+
 $container.innerHTML = '<div> &#129409 129409</div>'
 $container.innerHTML += '<div> &#8987 8987</div>'
 
@@ -28,7 +31,7 @@ $container.innerHTML += '<div> &#8987 8987</div>'
 let count = 0
 
 while (count < 100) {
-  $container.innerHTML += '<div> &#8987 8987</div>'
+  $container.innerHTML += '<div> &#8987 8987 </div>'
   count++
 }
 
