@@ -72,17 +72,16 @@ table {
     padding: 20px 0 0 0 ;
 }
 /* mobile styles */
-@media only screen and (max-width: 600px) {
     #container {
       background-color: lightblue;
       display: grid;
       grid-template-columns: repeat(10, 1fr);
       grid-template-rows: repeat(10, 1fr);
     }
-  }
+  
 
 /* tablet */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
    #container {
     background-color: blue;
     display: grid;
@@ -92,7 +91,7 @@ table {
 }  
 
 /* desktop */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1025px) and (max-width: 2200px) {
     #container  {
       background-color: darkblue;
       display: grid;
