@@ -52,7 +52,8 @@ table {
 ---------------------*/
 /* general styles */
 .header-footer{
-    background-color: lightgray;
+    background-color: #719898;
+    color: #F4FAFF;
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
     padding: 10px;
@@ -62,10 +63,6 @@ table {
     padding: 20px 0 0 35px;
 }
 
-#container{
-    padding: 50px;
-    display: flex;
-}
 #footer{
     text-align: center;
     font-size: 1.2rem;
@@ -73,30 +70,24 @@ table {
 }
 /* mobile styles */
     #container {
-      background-color: lightblue;
-      display: grid;
-      grid-template-columns: repeat(10, 1fr);
-      grid-template-rows: repeat(10, 1fr);
-      grid-template-areas: 
-      "one two three four five";
+      background-color: #F4FAFF;
+      padding: 50px;
     }
-  
+    
 /* tablet */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
    #container {
-    background-color: blue;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   } 
 }  
 
 /* desktop */
 @media only screen and (min-width: 1025px) and (max-width: 2200px) {
     #container  {
-      background-color: darkblue;
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
     } 
   } 
