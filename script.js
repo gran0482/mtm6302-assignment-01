@@ -8,24 +8,19 @@ const $emojis = ['&#129409', '129409', '&#8986','8986','&#8987', '8987', '&#9193
 //Code
 
 //Run
-
-
-
-
-
-
-
-
-
-// Possibly using a while loop?
+//While loop
 let count = 0
 
 while (count < 1) {
-  $container.innerHTML += $emojis
+  $container.innerHTML += $emojis.join(' | ')
   count++
 }
 
-// include join() method
+// for (let i = 0; i < $emojis.length; i++) {
+//   container.innerHTML = $emojis.join(' | ')
+// }
+
+
 
 
 //header and footer text

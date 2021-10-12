@@ -77,9 +77,10 @@ table {
       display: grid;
       grid-template-columns: repeat(10, 1fr);
       grid-template-rows: repeat(10, 1fr);
+      grid-template-areas: 
+      "one two three four five";
     }
   
-
 /* tablet */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
    #container {
