@@ -8,9 +8,6 @@ const $emojis = ['&#129409', '129409', '&#8986','8986','&#8987', '8987', '&#9193
 //Code
 
 //Run
-
-
-
 //While loop
 let count = 0
 
@@ -19,10 +16,6 @@ while (count < 1) {
   count++
 }
 
-
-
-
-
 //header and footer text
 $header.innerHTML = 'Emoji Gallery'
-$footer.innerHTML += '© 2021 Ben Grant'
+$footer.innerHTML += '&copy 2021 Ben Grant'
