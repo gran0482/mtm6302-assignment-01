@@ -10,19 +10,19 @@ const $emojis = ['&#129409 129409', '&#8986 8986','&#8987 8987', '&#9193 9193','
 
 //Run
 // for loop
-// for (let i=0; i < $emojis.length; i++){
-//   $container.innerHTML = $emojis.join(' | ');
-//   console.log($emojis[i]);
- 
-// }
-
-for (let i= 0; i < 3; i++){
+for (let i=0; i < $emojis.length; i++){
   $container.innerHTML = $emojis.join(' | ');
   console.log($emojis[i]);
  
 }
 
-let total = 0
+// for (let i= 0; i < 3; i++){
+//   $container.innerHTML = $emojis.join(' | ');
+//   console.log($emojis[i]);
+ 
+// }
+
+// let total = 0
 
 
 //header and footer text
