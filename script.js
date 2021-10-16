@@ -12,19 +12,10 @@ const $emojis = ['&#129409 129409', '&#8986 8986','&#8987 8987', '&#9193 9193','
 for(let i=0; i < 1; i++){
   $container.innerHTML += $emojis.join(' | ')
 
-  console.log($emojis[i])
 }
 
+let total = 0
 
-
-
-// //While loop
-// let count = 0
-
-// while (count < 1) {
-//   $container.innerHTML += $emojis.join(' | ')
-//   count++
-// }
 
 //header and footer text
 $header.innerHTML = 'Emoji Gallery'
