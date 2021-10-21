@@ -17,9 +17,6 @@ for (let i=0; i < $emojis.length; i++) {
 document.getElementById('container').innerHTML = text;
 
 
-// let total = 0
-
-
 //header and footer text
 $header.innerHTML = 'Emoji Gallery';
 $footer.innerHTML += '&copy 2021 Ben Grant';
